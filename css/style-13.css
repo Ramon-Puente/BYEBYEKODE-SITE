@@ -1,0 +1,34 @@
+.feature-container {
+    border-radius: 40px;
+    padding: 40px 15px
+}
+
+.features-heading {
+    margin-bottom: 32px;
+    padding: 0
+}
+
+.feature__description {
+    color: #fff;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4
+}
+
+@media (min-width:992px) {
+    .feature-container {
+        padding: 48px
+    }
+
+    .features-heading {
+        padding: 0 32px
+    }
+
+    .feature-container--custom-background {
+        background-image: url(https://designli.co/hubfs/images/homepage/detailed-background-homepage-3-compressed.png);
+        background-position: 0 0;
+        background-size: cover;
+        padding: 76px
+    }
+}
